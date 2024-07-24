@@ -62,7 +62,7 @@ The dataset contains historical sales data for Walmart stores. Key features incl
    ![Average Sales for Each Department](TSSF%20Walmart/Untitled%20Folder/assets/avg_dept_sales.png)
 
   *Figure 2: Top 20 selling departments during holidays, with non-holiday comparison.*
-  ![Top 20 Selling Departments During Holidays](assets/top20_departments_holidays.png)
+  ![Top 20 Selling Departments During Holidays](TSSF%20Walmart/Untitled%20Folder/assets/top20_departments_holidays.png)
   
   
   *Figure 3: Correlation of features with each other and the target variable.*
