@@ -21,46 +21,60 @@ To build a time series forecasting model that predicts future sales for Walmart 
 
 ## Dataset
 The dataset contains historical sales data for Walmart stores. Key features include:
-- `Date`: The date of the sales record.
 - `Store`: Unique identifier for each store.
 - `Dept`: Department within the store.
+- `Date`: The date of the weekly sales record.
 - `Weekly_Sales`: Sales amount for the week.
 - `IsHoliday`: Whether the week includes a holiday.
 
 ## Methodology
 1. **Data Cleaning**:
    - Remove or impute missing values in sales data.
-   - Correct data inconsistencies, such as incorrect dates or negative sales figures.
    - Drop unnecessary columns that do not contribute to the forecasting model.
+   - Convert date columns to datetime format.
    - Ensure the data is aggregated at the correct time intervals (e.g., weekly).
 
-2. **Data Preprocessing**:
-   - Convert date columns to datetime format.
-   - Aggregate sales data at the required time frequency (e.g., weekly).
-   - Encode categorical variables (e.g., `Store`, `Dept`) if needed.
-   - Normalize or scale features if required.
-
-3. **Exploratory Data Analysis (EDA)**:
+2. **Exploratory Data Analysis (EDA)**:
    - Analyze historical sales trends and seasonality.
    - Visualize sales patterns and identify potential anomalies.
    - Explore relationships between sales and holidays.
 
+3. **Data Preprocessing**:
+   - Aggregate sales data at the required time frequency (e.g., weekly).
+   - Encode categorical variables (e.g., `Store`, `Dept`) if needed.
+   - Normalize or scale features if required.
+
 4. **Model Selection and Training**:
-   - Evaluate various time series forecasting models (e.g., ARIMA, SARIMA, Exponential Smoothing, Prophet).
+   - Evaluate various Machine Learning regression models (RandomForest, ExtraTrees, XGBoost, Catboost, HistGradientBoosting )
    - Use cross-validation techniques to select the best model based on performance metrics.
 
 5. **Model Evaluation**:
-   - Assess the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+   - Assess the model using metrics such as Weighted Mean Absolute Error (WMAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
    - Validate the model on a holdout dataset to ensure its accuracy and robustness.
-
-6. **Model Deployment**:
-   - Deploy the forecasting model for predicting future sales.
-   - Monitor the model’s performance and retrain as necessary based on new data.
 
 ## Exploratory Data Analysis (EDA)
 - Visualization of historical sales data to understand trends and seasonality.
 - Analysis of sales patterns related to holidays and special events.
 - Identification of anomalies or irregularities in sales data.
+- 
+  ### Visualizations
+   ![Average Sales for Each Department](TSSF Walmart/Untitled Folder/assets/avg_sales_dept.png)
+   *Figure 1: Average sales for each department.*
+
+   ![Correlation of Features](TSSF Walmart/Untitled Folder/assets/fts_corr.png)
+   *Figure 3: Correlation of features with each other and the target variable.*
+
+   ![Sales Trend Over Time]TSSF Walmart/Untitled Folder/(assets/sales_trend.png)
+   *Figure 4: Sales trend over time (2010-2012).*
+
+   ![Sales Trend for 2011](TSSF Walmart/Untitled Folder/assets/sales_trend_2011.png)
+   *Figure 5: Sales trend for 2011.*
+
+   ![Sales Trend for Each Store Type](TSSF Walmart/Untitled Folder/assets/sales_trend_by_sType.png)
+   *Figure 6: Sales trend for each store type (A, B, C).*
+
+   ![Distribution of Weekly Sales for each Store Type](TSSF Walmart/Untitled Folder/assets/dist_of_weekly_sales_byType.png)
+   *Figure 6: Sales trend for each store type (A, B, C).*
 
 ## Model Training and Evaluation
 - Comparison of different forecasting models.
@@ -79,7 +93,7 @@ The dataset contains historical sales data for Walmart stores. Key features incl
 ## Usage
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/walmart-sales-forecast.git
+    git clone https://github.com/Kimo2111/WalmartSalesForecast.git
     ```
 2. Install the necessary dependencies:
     ```bash
