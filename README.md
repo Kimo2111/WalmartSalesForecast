@@ -84,7 +84,7 @@ The dataset contains historical sales data for Walmart stores. Key features incl
    
 
 
-*Figure 7: Sales trend for each store type (A, B, C).*
+*Figure 7: Distribution of Weekly Sales for each store type (A, B, C).*
    ![Distribution of Weekly Sales for each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/dist_of_weekly_sales_byType.png)
    
 
