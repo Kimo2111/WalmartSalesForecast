@@ -9,9 +9,9 @@
 6. [Model Training and Evaluation](#model-training-and-evaluation)
 7. [Results](#results)
 8. [Insights](#insights)
-<!-- 9. [Usage](#usage) -->
 9. [Contributing](#contributing)
 10. [License](#license)
+<!-- 9. [Usage](#usage) -->
 
 ## Introduction
 Accurate sales forecasting is crucial for Walmart to optimize inventory management, staffing, and marketing strategies. This project focuses on developing a time series forecasting model to predict future sales based on historical sales data.
