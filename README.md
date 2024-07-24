@@ -90,17 +90,50 @@ The dataset contains historical sales data for Walmart stores. Key features incl
 
 ## Model Training and Evaluation
 - Comparison of different forecasting models.
-- Evaluation using performance metrics such as MAE, MSE, and RMSE.
+- Evaluation using performance metrics such as WMAE, MSE, and RMSE.
 - Selection of the best model based on forecasting accuracy.
 
 ## Results
 - Summary of the model's forecasting performance.
-- Key metrics such as MAE, MSE, and RMSE.
+- Key metrics such as WMAE, MSE, and RMSE.
 - Forecasted sales for future periods.
 
 ## Insights
-- Analysis of sales trends, seasonality, and the impact of holidays.
-- Recommendations for inventory and operational planning based on forecasted sales.
+
+The following visualizations illustrate key findings and trends from the analysis:
+
+  ### Visualizations
+  *Figure 1: Average sales for each department.*
+   ![Average Sales for Each Department](TSSF%20Walmart/Untitled%20Folder/assets/avg_dept_sales.png)
+
+  *Figure 2: Top 20 selling departments during holidays, with non-holiday comparison.*
+  ![Top 20 Selling Departments During Holidays](TSSF%20Walmart/Untitled%20Folder/assets/top20_departments_holidays.png)
+  
+  
+  *Figure 3: Correlation of features with each other and the target variable.*
+   ![Correlation of Features](TSSF%20Walmart/Untitled%20Folder/assets/fts_corr.png)
+   
+
+
+  *Figure 4: Sales trend over time (2010-2012).*
+   ![Sales Trend Over Time](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend.png)
+
+
+  *Figure 5: Sales trend for 2011.*
+   ![Sales Trend for 2011](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend_2011.png)
+  
+
+
+*Figure 6: Sales trend for each store type (A, B, C).*
+   ![Sales Trend for Each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend_by_sType.png)
+   
+
+
+*Figure 7: Distribution of Weekly Sales for each store type (A, B, C).*
+   ![Distribution of Weekly Sales for each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/dist_of_weekly_sales_byType.png)
+
+
+These insights help in understanding the sales patterns and trends, which are crucial for accurate sales forecasting and operational planning.
 
 ## Usage
 1. Clone the repository:
