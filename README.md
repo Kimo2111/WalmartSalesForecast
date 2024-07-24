@@ -10,7 +10,6 @@
 7. [Results](#results)
 8. [Insights](#insights)
 9. [Contributing](#contributing)
-10. [License](#license)
 <!-- 9. [Usage](#usage) -->
 
 ## Introduction
@@ -135,6 +134,3 @@ These insights help in understanding the sales patterns and trends, which are cr
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
