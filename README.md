@@ -58,34 +58,35 @@ The dataset contains historical sales data for Walmart stores. Key features incl
 - Identification of anomalies or irregularities in sales data.
 - 
   ### Visualizations
+  *Figure 1: Average sales for each department.*
    ![Average Sales for Each Department](TSSF%20Walmart/Untitled%20Folder/assets/avg_dept_sales.png)
-   *Figure 1: Average sales for each department.*
 
+  *Figure 2: Top 20 selling departments during holidays, with non-holiday comparison.*
+  ![Top 20 Selling Departments During Holidays](assets/top20_departments_holidays.png)
   
-
+  
+  *Figure 3: Correlation of features with each other and the target variable.*
    ![Correlation of Features](TSSF%20Walmart/Untitled%20Folder/assets/fts_corr.png)
-   *Figure 3: Correlation of features with each other and the target variable.*
+   
 
 
-
+  *Figure 4: Sales trend over time (2010-2012).*
    ![Sales Trend Over Time](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend.png)
-  
-   *Figure 4: Sales trend over time (2010-2012).*
 
 
-
+  *Figure 5: Sales trend for 2011.*
    ![Sales Trend for 2011](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend_2011.png)
-   *Figure 5: Sales trend for 2011.*
+  
 
 
-
+*Figure 6: Sales trend for each store type (A, B, C).*
    ![Sales Trend for Each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend_by_sType.png)
-   *Figure 6: Sales trend for each store type (A, B, C).*
+   
 
 
-
+*Figure 7: Sales trend for each store type (A, B, C).*
    ![Distribution of Weekly Sales for each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/dist_of_weekly_sales_byType.png)
-   *Figure 6: Sales trend for each store type (A, B, C).*
+   
 
 ## Model Training and Evaluation
 - Comparison of different forecasting models.
