@@ -58,7 +58,7 @@ The dataset contains historical sales data for Walmart stores. Key features incl
 - Identification of anomalies or irregularities in sales data.
 - 
   ### Visualizations
-   ![Average Sales for Each Department](TSSF%20Walmart/Untitled%20Folder/assets/avg_sales_dept.png)
+   ![Average Sales for Each Department](TSSF%20Walmart/Untitled%20Folder/assets/avg_dept_sales.png)
    *Figure 1: Average sales for each department.*
 
    ![Correlation of Features](TSSF%20Walmart/Untitled%20Folder/assets/fts_corr.png)
