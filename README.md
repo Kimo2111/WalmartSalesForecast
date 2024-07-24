@@ -58,22 +58,22 @@ The dataset contains historical sales data for Walmart stores. Key features incl
 - Identification of anomalies or irregularities in sales data.
 - 
   ### Visualizations
-   ![Average Sales for Each Department](TSSF Walmart/Untitled Folder/assets/avg_sales_dept.png)
+   ![Average Sales for Each Department](TSSF%20Walmart/Untitled%20Folder/assets/avg_sales_dept.png)
    *Figure 1: Average sales for each department.*
 
-   ![Correlation of Features](TSSF Walmart/Untitled Folder/assets/fts_corr.png)
+   ![Correlation of Features](TSSF%20Walmart/Untitled%20Folder/assets/fts_corr.png)
    *Figure 3: Correlation of features with each other and the target variable.*
 
-   ![Sales Trend Over Time]TSSF Walmart/Untitled Folder/(assets/sales_trend.png)
+   ![Sales Trend Over Time](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend.png)
    *Figure 4: Sales trend over time (2010-2012).*
 
-   ![Sales Trend for 2011](TSSF Walmart/Untitled Folder/assets/sales_trend_2011.png)
+   ![Sales Trend for 2011](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend_2011.png)
    *Figure 5: Sales trend for 2011.*
 
-   ![Sales Trend for Each Store Type](TSSF Walmart/Untitled Folder/assets/sales_trend_by_sType.png)
+   ![Sales Trend for Each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/sales_trend_by_sType.png)
    *Figure 6: Sales trend for each store type (A, B, C).*
 
-   ![Distribution of Weekly Sales for each Store Type](TSSF Walmart/Untitled Folder/assets/dist_of_weekly_sales_byType.png)
+   ![Distribution of Weekly Sales for each Store Type](TSSF%20Walmart/Untitled%20Folder/assets/dist_of_weekly_sales_byType.png)
    *Figure 6: Sales trend for each store type (A, B, C).*
 
 ## Model Training and Evaluation
