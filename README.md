@@ -43,12 +43,16 @@ The dataset contains historical sales data for Walmart stores. Key features incl
    - Aggregate sales data at the required time frequency (e.g., weekly).
    - Encode categorical variables (e.g., `Store`, `Dept`) if needed.
    - Normalize or scale features if required.
+     
+4. **Feature Generation**:
+   - Generate new features such as whether the holiday week is Thanksgiving or not.
+   - Calculate the number of days left until Christmas and Thanksgiving.
 
-4. **Model Selection and Training**:
+5. **Model Selection and Training**:
    - Evaluate various Machine Learning regression models (RandomForest, ExtraTrees, XGBoost, Catboost, HistGradientBoosting )
    - Use cross-validation techniques to select the best model based on performance metrics.
 
-5. **Model Evaluation**:
+6. **Model Evaluation**:
    - Assess the model using metrics such as Weighted Mean Absolute Error (WMAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
    - Validate the model on a holdout dataset to ensure its accuracy and robustness.
 
