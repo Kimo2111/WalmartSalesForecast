@@ -109,7 +109,7 @@ The following visualizations illustrate key findings and trends from the analysi
 
 
 These insights help in understanding the sales patterns and trends, which are crucial for accurate sales forecasting and operational planning.
-
+<!-- Hidden till fixed
 ## Usage
 1. Clone the repository:
     ```bash
@@ -131,6 +131,7 @@ These insights help in understanding the sales patterns and trends, which are cr
     ```bash
     python evaluate_model.py
     ```
+    -->
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
